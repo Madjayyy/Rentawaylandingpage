@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #e0e0e0;
+    overflow: hidden; /* Only added this line — disables scroll */
+}
+
+/* Navbar */
+.navbar{
+    width: 100%;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 65px;
+}
+
+.logo{
+    font-size: 55px;
+    font-weight: 950;
+    color: #111827;
+}
+
+.nav-links{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: #111827;
+    font-size: 25px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.nav-links a:hover{
+    color: #000;
+}
+
+.nav-links .active{
+    font-weight: 800;
+}
+
+/* About Section */
+.about-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 80px;
+    min-height: calc(90vh - 110px);
+}
+
+/* Left Text */
+.text-content{
+    max-width: 1200%;
+    text-align: center;
+        margin: 0 auto;
+}
+
+.text-content h1{
+    font-size: 78px;
+    font-weight: 900;
+    color: #111827;
+    margin-bottom: 10px;
+}
+
+.text-content p{
+    font-size: 40px;
+    line-height: 1.5;
+    color: #2d2d2d;
+}
+
+.mission{
+    margin-top: -60px;
+    margin-bottom: 40px;
+}
+
+/* Right Image */
+.image-content{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.image-content img{
+    width: 100%;
+    max-width: 850px;
+    height: auto;
+}
